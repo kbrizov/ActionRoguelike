@@ -2,7 +2,11 @@
 Stanford CS193U Reference Project (Fall '20)
 **Details: [Course Page](https://www.tomlooman.com/stanford-cs193u/)**
 
-**Created for Unreal Engine 4.25+**
+**Current Engine Version: 4.26**
+
+**Use Branch "Lecture29-FinishedProject" for Course-only Code.** (Master/Main branch include additional polish and additions)
+
+![GitHub Branch Selection Info](https://www.tomlooman.com/wp-content/uploads/2021/01/github_branchesinfo.jpg)
 
 ![Combat Example Still](https://www.tomlooman.com/wp-content/uploads/2021/01/actionroguelike_ue4_combatsample.jpg)
 
@@ -18,6 +22,7 @@ Stanford CS193U Reference Project (Fall '20)
 - **SaveGame System** for persisting progress of character and world state.
 - Heavy use of Events to drive UI and gameplay reactions.
 - Mix of C++ & Blueprint and how to combine these effectively.
+- **GameplayTags** to mark-up Actors, Buffs, Actions.
 - **Multiplayer support** for all features
 - GameMode Logic
   - EQS for binding bot/powerup spawn locations.
